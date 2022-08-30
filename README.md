@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-View]()
+![Desktop-View](https://github.com/Humerous/DM-3-column-preview-card-components/blob/main/Desktop%20-%20dm-3-column-preview-card-components.png)
 
-![Mobile-View]()
+![Mobile-View](https://github.com/Humerous/DM-3-column-preview-card-components/blob/main/Mobile%20-%20dm-3-column-preview-card-components.jpg)
 
 ### Links
 
-- Live Site URL: ()
+- Live Site URL: (https://dm-3-column-preview-card-components.netlify.app/)
 
 ## My process
 
