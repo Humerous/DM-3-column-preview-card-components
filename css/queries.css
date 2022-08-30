@@ -16,4 +16,8 @@
   .luxury {
     border-radius: 0 0 0.6rem 0.6rem;
   }
+  
+  section {
+    width: 26rem;
+  }
 }
