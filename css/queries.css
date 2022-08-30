@@ -6,6 +6,9 @@
   main {
     max-width: 75rem;
     padding: 2rem;
+    margin: 0 auto;
+
+    
     display: flex;
     flex-direction: column;
   }
