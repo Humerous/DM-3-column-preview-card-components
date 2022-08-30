@@ -1,0 +1,152 @@
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+/* CLASS COMPONENTS */
+
+.margin-top {
+  margin-top: 1.8rem;
+}
+
+.card {
+  font-size: 1.2rem;
+  padding: 4rem;
+}
+
+.card-img {
+  height: 3.2rem;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 0.6rem 0 0 0.6rem;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  /* border-bottom-right-radius: 0.6rem;
+  border-top-right-radius: 0.6rem; */
+  border-radius: 0 0.6rem 0.6rem 0;
+}
+
+.card-heading {
+  color: hsla(0, 0%, 100%, 0.95);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.card-description {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Button */
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  padding: 1.2rem 2.4rem;
+  margin-top: 5rem;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* .btn--outline:link,
+.btn--outline:visited {
+} */
+
+.btn--outline-1:hover,
+.btn--outline-1:active {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.btn--outline-2:hover,
+.btn--outline-2:active {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.btn--outline-3:hover,
+.btn--outline-3:active {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+/* Button Color */
+.btn--color-orange {
+  color: hsl(31, 77%, 52%);
+}
+.btn--color-cyan {
+  color: hsl(184, 100%, 22%);
+}
+.btn--color-darkCyan {
+  color: hsl(179, 100%, 13%);
+}
+
+/* Footer Advert */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

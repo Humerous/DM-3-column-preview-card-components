@@ -1,0 +1,19 @@
+/**************************/
+/* BELOW 1200px (Desktop/Tablets/Phones) */
+/**************************/
+
+@media (max-width: 75em) {
+  main {
+    max-width: 75rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .sedan {
+    border-radius: 0.6rem 0.6rem 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 0.6rem 0.6rem;
+  }
+}
